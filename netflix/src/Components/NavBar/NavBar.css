@@ -9,17 +9,65 @@
 
 }
 
-.logo{
-    position: fixed;
-    left: 20px;
-    width: 80px;
+/* Logo styling */
+.navbar-logo img {
+height: 30px; /* Adjust size as needed */
+}
+
+/* User icon styling */
+.navbar-user {
+position: relative;
+display: flex;
+align-items: center;
+cursor: pointer;
+right: 30px;
 
 }
 
-.avatar{
-    position: fixed;
-    right: 20px;
-    width: 25px;
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700px;
     border-radius: 10px;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(235, 18, 18, 0.893);
+    cursor: pointer;
+    margin-right: 1rem;
 
+}
+
+button:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+
+
+
+
+/* Dropdown menu styling */
+.dropdown-menu {
+position: absolute;
+top: 30px;
+right: 2.2rem;
+background-color: #333; /* Background color for dropdown */
+border-radius: 5px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+z-index: 1000;
+}
+
+.dropdown-menu a {
+display: block;
+padding: 10px 20px;
+color: white;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+background-color: #444; /* Hover effect */
 }
