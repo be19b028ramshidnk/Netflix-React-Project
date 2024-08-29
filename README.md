@@ -2,6 +2,12 @@
 
 Welcome to the Netflix Clone Website! This project is a web application built with React.js that emulates the Netflix experience by displaying movies with dynamic recommendations, trailers, and details. The site uses the TMDb (The Movie Database) API to fetch movie data and provides a user-friendly interface for exploring different movie categories.
 
+![alt text](image-2.png)
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 ## Features
 
 - **Dynamic Movie Data**: Fetches movie details such as images, descriptions, and YouTube trailer links from the TMDb API.
